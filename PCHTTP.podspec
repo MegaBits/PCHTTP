@@ -4,8 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.3"
   s.summary      = "PCHTTP - A Simple Cocoa HTTP Client"
 
-  s.homepage     = "https://github.com/pcperini/PCHTTP"
-  # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage     = "https://github.com/megabits/PCHTTP"
 
   s.license      = { :type => 'CCA', :file => 'LICENSE.md' }
 
@@ -21,7 +20,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.6'
 
   s.source       = {
-      :git => "https://github.com/pcperini/PCHTTP.git",
+      :git => "https://github.com/megabits/PCHTTP.git",
       :tag => "v1.0.3"
   }
 
